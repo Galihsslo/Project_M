@@ -18,6 +18,7 @@ class RegController extends Controller
     {
         $user = User::create([
             'nama' => $request->nama,
+            'foto' => $request->foto,
             'email' => $request->email,
             'role' => $request->role,
             'password' => Hash::make($request->password),

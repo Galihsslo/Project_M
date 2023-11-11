@@ -179,9 +179,21 @@
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="/admins">
                             <i class="mdi mdi-home menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">User</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admins/data-santri">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Data Santri</span>
                         </a>
                     </li>
                     <li class="nav-item">

@@ -18,6 +18,11 @@
                                     <input type="text" name="nama" class="form-control form-control-lg" id="nama"
                                         placeholder="nama">
                                 </div>
+                                <div class="">foto</div>
+                                <div class="form-group">
+                                    <input type="text" name="foto" class="form-control form-control-lg" id="foto"
+                                        placeholder="foto">
+                                </div>
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control form-control-lg" id=""
                                         placeholder="Email">
@@ -25,9 +30,9 @@
                                 <div class="form-group">
                                     <select class="form-control form-control-lg" name="role" aria-placeholder="role"
                                         id="">
+                                        <option>wali</option>
                                         <option>admin</option>
                                         <option>bendahara</option>
-                                        <option>wali</option>
                                     </select>
                                 </div>
                                 <div class="form-group">

@@ -41,20 +41,34 @@
                     <tr>
                         <th class="col-md-1">No</th>
                         <th class="col-md-4">Nama</th>
-                        <th class="col-md-3">Email</th>
-                        <th class="col-md-2">Alamat</th>
+                        <th class="col-md-4">Alamat</th>
+                        <th class="col-md-4">Usia</th>
+                        <th class="col-md-3">Wali</th>
+                        <th class="col-md-2">Status</th>
                         <th class="col-md-2">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <?php $nomor = 1; ?>
+                        @foreach ($user as $item)
+                    <tr>
+                        <td>{{ $nomor }}</td>
+                        <td>{{ $item->nama }}</td>
+                        <td>{{ $item->alamat }}</td>
+                        <td>{{ $item->usia }}</td>
+                        <td>{{ $item->wali }}</td>
+                        <td>{{ $item->status }}</td>
+                        <?php $nomor++; ?>
+                        @endforeach
+                        {{-- 
                         <td>1</td>
                         <td>Muhammad {{ $nama }} </td>
                         <td>muhammad@gmail.com</td>
                         <td>Yogyakarta</td>
-                        <td>
-                            <a href="" class="btn btn-warning btn-sm">Edit</a>
-                            <a href="" class="btn btn-danger btn-sm">Del</a>
+                        <td> --}}
+                        <a href="" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="" class="btn btn-danger btn-sm">Del</a>
                         </td>
                     </tr>
                 </tbody>
